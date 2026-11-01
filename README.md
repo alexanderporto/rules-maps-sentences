@@ -2,7 +2,7 @@
 
 Agent-based models of a scenario in the evolution of language. A community, the *iconographers*, refers to four resources with vocalisations and maps that start out iconic: back rounded vowels and large round glyphs for resources that are large, round or distant; front unrounded vowels and small angular glyphs for resources that are small, angular or near. The models ask whether such a community arrives at compositional expressions that remain iconic (whether language can become abstract without becoming arbitrary) and whether it can learn to negate and to quantify. 
 
-Each submodel is a published model from evolutionary linguistics and gets applied to the iconographers' resources and implemented twice from one specification, in Python (Mesa) and in NetLogo. The two implementations do not share code, so where therer is model agreement, a result does not depend on a particular program.
+Each submodel is a published model from evolutionary linguistics and gets applied to the iconographers' resources and implemented twice from one specification, in Python (Mesa) and in NetLogo. The two implementations do not share code, so wherever there is model agreement, it does not depend on a particular program.
 
 ## Submodels
 
