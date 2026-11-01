@@ -1,0 +1,7 @@
+After 1000 plays, mean (sd) over 100 trials:
+                                     expected_payoff        negation_probability        sender_uses_negation       
+                                                mean    std                 mean    std                 mean    std
+condition                                                                                                          
+constant in X (resource 0 present)             0.983  0.001                0.995  0.000                0.972  0.002
+constant in f[X] (resource 0 absent)           0.910  0.104                0.836  0.261                0.881  0.171
+negation exit=0

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<experiments>
+  <experiment name="iconographers" repetitions="100" sequentialRunOrder="true" runMetricsEveryStep="false" timeLimit="2000">
+    <setup>random-seed behaviorspace-run-number
+setup</setup>
+    <go>go</go>
+    <runMetricsCondition>ticks mod 10 = 0 or ticks &gt; 1800</runMetricsCondition>
+    <metrics>
+      <metric>type-mass teacher-vocal 0</metric>
+      <metric>type-mass teacher-vocal 1</metric>
+      <metric>type-mass teacher-vocal 2</metric>
+      <metric>type-mass teacher-vocal 3</metric>
+      <metric>iconicity teacher-vocal vocal-iconic-counts</metric>
+      <metric>iconic-compositional teacher-vocal vocal-iconic-counts</metric>
+      <metric>type-mass teacher-maps 0</metric>
+      <metric>type-mass teacher-maps 1</metric>
+      <metric>type-mass teacher-maps 2</metric>
+      <metric>type-mass teacher-maps 3</metric>
+      <metric>iconicity teacher-maps map-iconic-counts</metric>
+      <metric>iconic-compositional teacher-maps map-iconic-counts</metric>
+    </metrics>
+    <constants>
+      <enumeratedValueSet variable="communicative-rationality"><value value="0"></value><value value="100"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="iconic-bits"><value value="0"></value><value value="2"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="population-size"><value value="10"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="interactions-per-step"><value value="20"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="founder-training"><value value="50"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="record-size"><value value="80"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="error-probability"><value value="0.05"></value></enumeratedValueSet>
+    </constants>
+  </experiment>
+</experiments>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<experiments>
+  <experiment name="quantifiers" repetitions="20" sequentialRunOrder="true" runMetricsEveryStep="true" timeLimit="300">
+    <setup>random-seed behaviorspace-run-number
+setup</setup>
+    <go>go</go>
+    <metrics>
+      <metric>item 0 measures</metric>
+      <metric>item 1 measures</metric>
+      <metric>item 2 measures</metric>
+      <metric>item 3 measures</metric>
+      <metric>item 4 measures</metric>
+    </metrics>
+    <constants>
+      <enumeratedValueSet variable="experiment"><value value="&quot;1: as produced&quot;"></value><value value="&quot;2: shuffled&quot;"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="bottleneck"><value value="200"></value><value value="512"></value><value value="715"></value><value value="1024"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="epochs"><value value="4"></value><value value="8"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="agents-per-generation"><value value="10"></value></enumeratedValueSet>
+      <enumeratedValueSet variable="batch-size"><value value="32"></value></enumeratedValueSet>
+    </constants>
+  </experiment>
+</experiments>

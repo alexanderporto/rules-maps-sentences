@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<experiments>
+  <experiment name="negation" repetitions="100" sequentialRunOrder="true" runMetricsEveryStep="false" timeLimit="1000">
+    <setup>random-seed behaviorspace-run-number
+setup</setup>
+    <go>go</go>
+    <runMetricsCondition>ticks mod 10 = 0</runMetricsCondition>
+    <metrics>
+      <metric>expected-payoff</metric>
+      <metric>item 2 function-probabilities</metric>
+      <metric>sender-uses-negation</metric>
+    </metrics>
+    <constants>
+      <enumeratedValueSet variable="constant-points-to"><value value="&quot;resource 0 present&quot;"></value><value value="&quot;resource 0 absent&quot;"></value></enumeratedValueSet>
+    </constants>
+  </experiment>
+</experiments>

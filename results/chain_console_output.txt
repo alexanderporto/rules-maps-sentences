@@ -1,0 +1,12 @@
+Long-run distributions (100000 generations from the holistic start), with the number of
+unit eigenvalues (> 1: several absorbing sets, so no single stationary distribution):
+ gamma  beta channel  unit_eigenvalues  degenerate  holistic  other  compositional  iconicity  iconic_compositional
+   0.0   0.0   vocal                 4       1.000       0.0  0.000          0.000      0.370                 0.000
+   0.0   0.0     map                 4       1.000       0.0  0.000          0.000      0.250                 0.000
+   0.0   2.0   vocal                 3       1.000       0.0  0.000          0.000      0.440                 0.000
+   0.0   2.0     map                 4       0.933       0.0  0.001          0.066      0.300                 0.066
+ 100.0   0.0   vocal                 6       0.000       0.0  0.000          1.000      0.398                 0.262
+ 100.0   0.0     map                 8       0.000       0.0  0.000          1.000      0.256                 0.125
+ 100.0   2.0   vocal                 5       0.000       0.0  0.000          1.000      0.741                 0.564
+ 100.0   2.0     map                 6       0.000       0.0  0.000          1.000      0.580                 0.467
+chain exit=0

@@ -1,0 +1,7 @@
+,,vocal_degenerate,vocal_degenerate,vocal_holistic,vocal_holistic,vocal_other,vocal_other,vocal_compositional,vocal_compositional,vocal_iconicity,vocal_iconicity,vocal_iconic_compositional,vocal_iconic_compositional,map_degenerate,map_degenerate,map_holistic,map_holistic,map_other,map_other,map_compositional,map_compositional,map_iconicity,map_iconicity,map_iconic_compositional,map_iconic_compositional
+,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+gamma,beta,,,,,,,,,,,,,,,,,,,,,,,,
+0.0,0.0,0.96,0.197,0.0,0.0,0.0,0.002,0.04,0.195,0.34,0.14,0.01,0.099,0.91,0.287,0.0,0.0,0.001,0.003,0.089,0.285,0.238,0.074,0.0,0.0
+0.0,2.0,0.88,0.326,0.0,0.0,0.04,0.196,0.08,0.272,0.447,0.205,0.07,0.255,0.929,0.256,0.0,0.0,0.001,0.003,0.069,0.255,0.288,0.152,0.04,0.196
+100.0,0.0,0.002,0.002,0.546,0.367,0.14,0.09,0.313,0.456,0.339,0.236,0.06,0.237,0.003,0.003,0.628,0.295,0.188,0.085,0.182,0.376,0.208,0.192,0.02,0.139
+100.0,2.0,0.001,0.002,0.418,0.388,0.118,0.103,0.463,0.49,0.529,0.255,0.2,0.4,0.002,0.003,0.534,0.344,0.172,0.107,0.292,0.447,0.308,0.243,0.054,0.22

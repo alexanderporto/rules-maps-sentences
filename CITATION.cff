@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "The Iconographers: agent-based models of iconic, compositional vocalisations and maps, negation and quantifiers"
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Porto
+    given-names: Alexander
+keywords:
+  - language evolution
+  - iconicity
+  - compositionality
+  - iterated learning
+  - agent-based model
+  - negation
+  - quantifiers
+  - Mesa
+  - NetLogo
+references:
+  - type: article
+    authors:
+      - family-names: Kirby
+        given-names: Simon
+      - family-names: Tamariz
+        given-names: Monica
+      - family-names: Cornish
+        given-names: Hannah
+      - family-names: Smith
+        given-names: Kenny
+    title: "Compression and communication in the cultural evolution of linguistic structure"
+    journal: Cognition
+    volume: 141
+    start: 87
+    end: 102
+    year: 2015
+    doi: 10.1016/j.cognition.2015.03.016
+  - type: article
+    authors:
+      - family-names: Kirby
+        given-names: Simon
+      - family-names: Tamariz
+        given-names: Monica
+    title: "Cumulative cultural evolution, population structure and the origin of combinatoriality in human language"
+    journal: "Philosophical Transactions of the Royal Society B"
+    volume: 377
+    issue: 1843
+    year: 2022
+    doi: 10.1098/rstb.2020.0319
+  - type: article
+    authors:
+      - family-names: Steinert-Threlkeld
+        given-names: Shane
+    title: "Compositional signaling in a complex world"
+    journal: "Journal of Logic, Language and Information"
+    volume: 25
+    start: 379
+    end: 397
+    year: 2016
+    doi: 10.1007/s10849-016-9236-9
+  - type: thesis
+    authors:
+      - family-names: Steinert-Threlkeld
+        given-names: Shane
+    title: "Communication and computation: New questions about compositionality"
+    institution:
+      name: Stanford University
+    year: 2017
+    url: "https://eprints.illc.uva.nl/id/eprint/2145/"
+  - type: article
+    authors:
+      - family-names: Carcassi
+        given-names: Fausto
+      - family-names: Steinert-Threlkeld
+        given-names: Shane
+      - family-names: Szymanik
+        given-names: Jakub
+    title: "Monotone quantifiers emerge via iterated learning"
+    journal: "Cognitive Science"
+    volume: 45
+    issue: 8
+    year: 2021
+    doi: 10.1111/cogs.13027
