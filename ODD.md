@@ -22,15 +22,15 @@ Sections 1–7 describe submodel A. Submodels B and C are described in sections 
 
 ## 1. Purpose and patterns
 
-**Purpose.** The model asks whether a community whose vocalisations and maps start out iconic can arrive at compositional expressions (signals whose parts combine, as in sentences) that remain iconic, that is, abstract but not arbitrary.
+**Purpose.** The model asks whether a community whose vocalisations and maps start out iconic can arrive at compositional expressions (signals whose parts combine, as in sentences) that remain iconic (i.e. *abstract* but not arbitrary).
 
-**The established pipeline.** Nothing in the model's machinery is new. It combines two published models from the same group, which share one learner:
+**The established pipeline.** The model combines two published models from the same group, which share one learner:
 
 - *Language space and prior:* Kirby, Tamariz, Cornish & Smith (2015), as implemented in the Simulating Language course, Lab 6 (Kirby & Smith; MIT License). Four meanings, each made of two features; forms of two symbols; 256 possible languages; a prior favouring languages with short grammars. In that model, compositional languages emerge when there is both a pressure to be learnable (new learners) and a pressure to be expressive (communication).
 - *Learning, production and population:* Kirby & Tamariz (2022). Bayesian learners, speakers who avoid ambiguous signals, and a population of 10 agents with turnover in which the oldest agent teaches. Kirby & Tamariz describe their model as "a relatively small modification" of Kirby et al. (2015); this model uses their population and production with Kirby et al.'s language space.
 - *Computational model:* the Markov-chain analysis of iterated learning (Griffiths & Kalish, 2007), which Reali & Griffiths (2010) relate to the Wright–Fisher model of population genetics.
 
-**The argument, element by element.**
+**Argument structure and model elements.**
 
 | The argument | The model |
 |---|---|
@@ -42,7 +42,7 @@ Sections 1–7 describe submodel A. Submodels B and C are described in sections 
 | "equal amounts of competition and cooperation"; "We will see how this community establishes rules" | Dyadic communication in a community with generational turnover; speakers try to be understood (communicative rationality γ) |
 | "from rules to maps to sentences" | Compositional languages: one part of the expression for size and shape, one for distance. The course implementation describes such a form as "a two-word sentence" |
 
-**The argument's pressures for sentential structure.** The argument names three linguistic pressures: to "negate more complex information", to "quantify more complex information (and use those quantifications reliably)", and "abstract predication of complex information (for example, the epistemic states of others)". Negation is submodel B and quantification submodel C. No published agent-based model of the emergence of language for epistemic states (ascribing knowledge and error to others) was found, so it is **not modelled**. The normative pressures (coordination, sanctioning) are not modelled either. Pointing gestures are not modelled separately.
+**Pressures for sentential structure.** The argument introduces three linguistic pressures: to "negate more complex information", to "quantify more complex information (and use those quantifications reliably)", and "abstract predication of complex information (for example, the epistemic states of others)". Negation is submodel B and quantification submodel C. No published agent-based model of the emergence of language for epistemic states (ascribing knowledge and error to others) was found, so it is not modelled. The normative pressures (coordination, sanctioning) are not modelled either. Pointing gestures are not modelled separately.
 
 ### 1.1 Predictions
 
@@ -204,19 +204,21 @@ Degenerate quantifiers get monotonicity and quantity 1, as in the reference code
 
 | Assumption | Source |
 |---|---|
-| Vowel mapping (back rounded ↔ large, round, distant) | My argument. Empirical support: rounder drawings for back rounded vowels (Porto et al., under review); distal deictics with back vowels (Tanz, 1971; Woodworth, 1991).  |
-| Large and round grouped as one feature | The argument groups them ("large, round, and/or distant") |
+| Vowel mapping (back rounded ↔ large, round, distant) | Argument assumption/specification. Empirical support: rounder drawings for back rounded vowels (Porto et al., under review); distal deictics with back vowels (Tanz, 1971; Woodworth, 1991).  |
+| Large and round grouped as one feature | Argument assumption/specification ("large, round, and/or distant") |
 | Maps keep a record and share the vocal prior | Argument assumption/specification |
 | Iconicity as a bias in the prior (β bits per iconic expression) | In iterated learning, learner biases are expressed in the prior (Griffiths & Kalish, 2007; Reali & Griffiths, 2010). The form "bits saved per iconic expression" is this model's; β = 0 is the published prior |
-| Vowel order free; map marks positional | My argument does not order vowels; a map's glyph and placement are different marks |
+| Vowel order free; map marks positional | Argument does not order vowels; a map's glyph and placement are different marks |
 | Everything else in submodel A | Kirby et al. (2015); Kirby & Tamariz (2022) |
 | Negation states: each resource present or absent; negation pairs them | Steinert-Threlkeld (2017), Example 2.1, applied to the four resources |
 | Quantifier world: A = 10 resources in view, B = the distant ones | Model specification; structure size 10 as in Carcassi et al. (2021) |
-| Epistemic language not modelled | No published agent-based model found |
+| Epistemic language not modelled | No published agent-based model |
 
 ## References
 
 Carcassi, F., Steinert-Threlkeld, S., & Szymanik, J. (2021). Monotone quantifiers emerge via iterated learning. *Cognitive Science*, 45(8), e13027. https://doi.org/10.1111/cogs.13027
+
+Epstein, J. M., & Axtell, R. L. (1996). *Growing artificial societies: Social science from the bottom up*. MIT Press. https://doi.org/10.7551/mitpress/3374.001.0001
 
 Griffiths, T. L., & Kalish, M. L. (2007). Language evolution by iterated learning with Bayesian agents. *Cognitive Science*, 31(3), 441–480. https://doi.org/10.1080/15326900701326576
 

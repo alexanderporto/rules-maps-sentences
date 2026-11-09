@@ -1,8 +1,10 @@
 # The Iconographers
 
-Agent-based models of a scenario in the evolution of language. A community, the *iconographers*, refers to four resources with vocalisations and maps that start out iconic: back rounded vowels and large round glyphs for resources that are large, round or distant; front unrounded vowels and small angular glyphs for resources that are small, angular or near. The models ask whether such a community arrives at compositional expressions that remain iconic (whether language can become abstract without becoming arbitrary) and whether it can learn to negate and to quantify. 
+Agent-based models of a scenario in the evolution of language based on a thought experiment called *The Iconographers*. The motivation is to offer a preliminary test of the evolution of language and rules via iconicity. The models are adapted from Kirby et al. (2015), Kirby & Tamariz (2022), Steinert-Threlkeld (2016, 2017), and Carcassi et al. (2021). 
 
-Each submodel is a published model from evolutionary linguistics and gets applied to the iconographers' resources and implemented twice from one specification, in Python (Mesa) and in NetLogo. The two implementations do not share code, so wherever there is model agreement, it does not depend on a particular program.
+The iconographers live in a simple world where they refer to four resources with vocalisations and maps that begin as iconic (back rounded vowels and large round glyphs for resources that are large, round or distant; front unrounded vowels and small angular glyphs for resources that are small, angular or near). The ABMs explore, as a proof-of-concept, whether such a community arrives at compositional expressions that remain iconic (whether language can become abstract without becoming arbitrary) and whether it can learn to negate and to quantify and use those signals reliably across generations of artificial learners.  
+
+Each submodel is a published model from evolutionary linguistics and gets applied to the iconographers' resources and implemented twice from one specification, in Python (with Mesa) and in NetLogo. The two implementations do not share code, so wherever there is model agreement, it does not depend on a particular program. The Mesa code is adapted from Epstein & Axtell's (1996) canonical Sugarscape model (https://mesa.readthedocs.io/stable/examples/advanced/sugarscape_g1mt.html). 
 
 ## Submodels
 
@@ -32,7 +34,7 @@ All results are descriptive: means over 100 runs (A, B) or 20 runs (C). Complete
 
 ![Outcome by condition](results/figures/a2_final_languages.png)
 
-**B. A word for "not" is learned.** After 1000 exchanges, the listener reads *a* as negation with probability 0.995 in both implementations when the alternative readings are always wrong (published: 0.995), and with probability 0.84 (Python) and 0.85 (NetLogo) when one of them is sometimes right (published: 0.81; Steinert-Threlkeld, 2017, Table 2.2).
+**B. A word for "not" is learned and transmitted.** After 1000 exchanges, the listener reads *a* as negation with probability 0.995 in both implementations when the alternative readings are always wrong (published: 0.995), and with probability 0.84 (Python) and 0.85 (NetLogo) when one of them is sometimes right (published: 0.81; Steinert-Threlkeld, 2017, Table 2.2).
 
 ![Learning negation over 1000 exchanges](results/figures/b_negation_learning.png)
 
@@ -96,6 +98,8 @@ Citation metadata are in [CITATION.cff](CITATION.cff). The code is released unde
 ## References
 
 Carcassi, F., Steinert-Threlkeld, S., & Szymanik, J. (2021). Monotone quantifiers emerge via iterated learning. *Cognitive Science*, 45(8), e13027. https://doi.org/10.1111/cogs.13027
+
+Epstein, J. M., & Axtell, R. L. (1996). *Growing artificial societies: Social science from the bottom up*. MIT Press. https://doi.org/10.7551/mitpress/3374.001.0001
 
 Griffiths, T. L., & Kalish, M. L. (2007). Language evolution by iterated learning with Bayesian agents. *Cognitive Science*, 31(3), 441–480. https://doi.org/10.1080/15326900701326576
 
